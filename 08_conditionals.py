@@ -1,4 +1,8 @@
 # Conditionals
+# encontramos tres tipos de condicionales: if, elif y else
+# if: si se cumple la condición se ejecuta el bloque de código
+# else: si no se cumple la condición se ejecuta el bloque de código
+# else if: si no se cumple la condición se ejecuta el bloque de código
 
 my_condition = False
 
@@ -25,7 +29,7 @@ elif my_condition >= 10 or my_condition <= 20:
     print('estoy dentro del else') # pertenece al else porque está identado
 else:
     print("Se ejecuta cuando el valor es menor que 10 y mayor que 20")
-    
+
 
 print('estoy fuera del else') # no pertenece al else porque no está identado
 
